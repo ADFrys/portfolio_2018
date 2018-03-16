@@ -14,7 +14,6 @@ firebase.initializeApp(config);
 var database = firebase.database();
 
 $("#submitbutton").on("click", function() {
-  event.preventDefault();
 
   var name = $("#username").val().trim();
   var email = $("#email").val().trim();

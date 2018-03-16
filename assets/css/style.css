@@ -3,7 +3,7 @@
 body {
 	background-image: url("../images/wall4.png");
 	position: relative;
-	margin-bottom: 30px;
+/*	margin-bottom: 30px;*/
 }
 
 
@@ -50,7 +50,7 @@ body {
 }
 
 .header h1:hover {
-	background-color: #666666;
+	background-image: url("../images/congruent_outline.png");
 	color: #ffffff;
 	font-weight: bold;
 	width: 165px;
@@ -80,6 +80,8 @@ body {
 .image_bio img {
 	float: left;
 	width: 30%;
+	margin-top: 20px;
+	margin-bottom: 5px;
 }
 
 .Bioparagraph {
@@ -88,8 +90,8 @@ body {
 
 .Bioparagraph p {
 	float: left;
-	width: 60%;
-	margin-left: 30px;
+	width: 65%;
+	margin-left: 20px;
 	margin-right: 0;
 	line-height: 1.5;
 }
@@ -108,7 +110,7 @@ body {
 	float: left;
 	padding-left: 10px;
 	padding-right: 10px;
-	padding-bottom: 50px;
+	padding-bottom: 20px;
 	margin-bottom: 150px;
 }
 
@@ -157,31 +159,31 @@ input[type=submit] {
 input[type=text] {
 	width: 600px;
 	height: 25px;
-	border: 1px solid #dddddd;
+	border: 1px solid gray;
 }
 
 input[type=email] {
 	width: 600px;
 	height: 25px;
-	border: 1px solid #dddddd;
+	border: 1px solid gray;
 }
 
 #submitbutton:hover {
 	padding: 10px 20px;
 	font-size: 20px;
-	color: #ffffff;
+	background-image: url("../images/congruent_outline.png");
 	background-color: #666666;
 }
 
 textarea {
-	border: 1px solid #dddddd;
+	border: 1px solid gray;
 }
 
 .footer {
 	clear: both;
-	background-color: #666666;
-	height: 85px;
-	border-top: 5px solid #4aaaa5;
+	background-image: url("../images/congruent_outline.png");
+	height: 75px;
+	border-top: 15px solid #4aaaa5;
 	text-align: center;
 	line-height: 85px;
 	color: #ffffff;
@@ -191,6 +193,11 @@ textarea {
 	margin-top: 75px;
 	bottom: 0;
 	left: 0;
+}
+
+.portfolio_footer {
+	position: static;
+	margin-bottom: 0px;
 }
 
 
