@@ -1,0 +1,289 @@
+
+.hangman h5 {
+	margin-top: 130px;
+	margin-bottom: 10px;
+	background-color: #4aaaa5;
+	padding: 15px 0 5px 15px;
+	color: #ffffff;
+	bottom: 0;
+	text-align: center; 
+	line-height: 35px;
+}
+
+.hangman {
+	background: #ffffff url(../images/nature-q-c-640-480-10.jpg) top left no-repeat;
+	width: 256px;
+	height: 190px;
+	float: left;
+	margin-right: 37px;
+	margin-left: 30px;
+}
+
+.portfolio a {
+	text-decoration: none;
+}
+
+.hangman h5:hover {
+	margin-top: 130px;
+	margin-bottom: 10px;
+	background-color: #666666;
+	padding: 15px 0 5px 15px;
+	color: #ffffff;
+	bottom: 0;
+	text-align: center; 
+	line-height: 35px;
+}
+
+.FriendFinder {
+	background: #ffffff url(../images/abstract-q-c-640-480-1.jpg) top left no-repeat;
+	width: 256px;
+	height: 190px;
+	float: left;
+	margin-left: 20px;
+}
+
+.FriendFinder h5 {
+	margin-top: 130px;
+	margin-bottom: 10px;
+	background-color: #4aaaa5;
+	padding: 15px 0 5px 15px;
+	color: #ffffff;
+	bottom: 0;
+	text-align: center; 
+	line-height: 35px;
+}
+
+.FriendFinder h5:hover {
+	margin-top: 130px;
+	margin-bottom: 10px;
+	background-color: #666666;
+	padding: 15px 0 5px 15px;
+	color: #ffffff;
+	bottom: 0;
+	text-align: center; 
+	line-height: 35px;
+
+}
+
+.triviagame {
+	background: #ffffff url(../images/abstract-q-c-640-480-3.jpg) top left no-repeat;
+	width: 256px;
+	height: 190px;
+	float: left;
+	margin: 37px 30px 30px 30px;
+}
+
+.triviagame h5 {
+	margin-top: 130px;
+	margin-bottom: 10px;
+	background-color: #4aaaa5;
+	padding: 15px 0 5px 15px;
+	color: #ffffff;
+	bottom: 0;
+	text-align: center; 
+	line-height: 35px;
+}
+
+.triviagame h5:hover {
+	margin-top: 130px;
+	margin-bottom: 10px;
+	background-color: #666666;
+	padding: 15px 0 5px 15px;
+	color: #ffffff;
+	bottom: 0;
+	text-align: center; 
+	line-height: 35px;
+}
+
+.burger {
+	background: #ffffff url(../images/nature-q-c-640-480-2.jpg) top left no-repeat;
+	width: 256px;
+	height: 190px;
+	float: left;
+	margin: 37px 30px 30px 30px;
+}
+
+.burger h5 {
+	margin-top: 130px;
+	margin-bottom: 10px;
+	background-color: #4aaaa5;
+	padding: 15px 0 5px 15px;
+	color: #ffffff;
+	bottom: 0;
+	text-align: center; 
+	line-height: 35px;
+}
+
+.burger h5:hover {
+	margin-top: 130px;
+	margin-bottom: 10px;
+	background-color: #666666;
+	padding: 15px 0 5px 15px;
+	color: #ffffff;
+	bottom: 0;
+	text-align: center; 
+	line-height: 35px;
+}
+
+.rockpaper {
+	background: #ffffff url(../images/dog.jpg) top left no-repeat;
+	width: 256px;
+	height: 190px;
+	float: left;
+	margin-left: 30px;
+	margin-bottom: 30px;
+}
+
+.rockpaper h5 {
+	margin-top: 130px;
+	margin-bottom: 10px;
+	background-color: #4aaaa5;
+	padding: 15px 0 5px 15px;
+	color: #ffffff;
+	bottom: 0;
+	text-align: center; 
+	line-height: 35px;
+}
+
+.rockpaper h5:hover {
+	margin-top: 130px;
+	margin-bottom: 10px;
+	background-color: #666666;
+	padding: 15px 0 5px 15px;
+	color: #ffffff;
+	bottom: 0;
+	text-align: center; 
+	line-height: 35px;
+}
+
+
+@media screen and (max-width: 980px) and (min-width: 641px){
+
+	.hangman {
+		clear: both;
+		width: 100%;
+		padding: 0px 0px;
+		margin: 0 auto;
+	}
+
+	.hangman h5 {
+		width: 97%;
+	}
+
+	.FriendFinder {
+		clear: none;
+		width: 100%;
+		margin-top: 20px;
+		margin-left: 5px;
+		padding: 0px 0px;
+	}
+
+	.FriendFinder h5 {
+		width: 97%;
+	}
+
+	.triviagame {
+		clear: both;
+		width: 100%;
+		margin-top: 20px;
+		margin-left: 5px;
+		margin-bottom: 0px;
+		padding: 0px 0px;
+	}
+
+	.triviagame h5 {
+		width: 97%;
+	}
+
+	.burger {
+		clear: both;
+		width: 100%;
+		margin-top: 20px;
+		margin-left: 5px;
+		margin-bottom: 0px;
+		padding: 0px 0px
+	}
+
+	.burger h5 {
+		width: 97%;
+	}
+
+	.rockpaper {
+		clear: both;
+		width: 100%;
+		margin-top: 20px;
+		margin-left: 5px;
+		padding: 0px 0px;
+	}
+
+	.rockpaper h5 {
+		width: 97%;
+	}
+
+}
+
+@media screen and (max-width: 640px) {
+
+	.hangman {
+		clear: both;
+		width: 100%;
+		padding: 0px 0px;
+		margin: 0 auto;
+	}
+
+	.hangman h5 {
+		width: 97%;
+	}
+
+	.FriendFinder {
+		clear: none;
+		width: 100%;
+		margin-top: 20px;
+		margin-left: 5px;
+		padding: 0px 0px;
+	}
+
+	.FriendFinder h5 {
+		width: 97%;
+	}
+
+	.triviagame {
+		clear: both;
+		width: 100%;
+		margin-top: 20px;
+		margin-left: 5px;
+		margin-bottom: 0px;
+		padding: 0px 0px;
+	}
+
+	.triviagame h5 {
+		width: 97%;
+	}
+
+	.burger {
+		clear: both;
+		width: 100%;
+		margin-top: 20px;
+		margin-left: 5px;
+		margin-bottom: 0px;
+		padding: 0px 0px
+	}
+
+	.burger h5 {
+		width: 97%;
+	}
+
+	.rockpaper {
+		clear: both;
+		width: 100%;
+		margin-top: 20px;
+		margin-left: 5px;
+		padding: 0px 0px;
+	}
+
+	.rockpaper h5 {
+		width: 97%;
+	}
+
+}
+
