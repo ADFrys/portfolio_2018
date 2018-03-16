@@ -1,16 +1,15 @@
 
 
 body {
-	background-image: url("../images/wall4.png");
+	background-image: url("../images/congruent_outline.png");
 	position: relative;
-/*	margin-bottom: 30px;*/
 }
 
 
 .header {
 	height: 90px;
 	background-color: #ffffff;
-	border: 1px solid #cccccc;
+	margin-top: 10px;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	color: #777777;
 	width: 960px;
@@ -181,15 +180,16 @@ textarea {
 
 .footer {
 	clear: both;
-	background-image: url("../images/congruent_outline.png");
-	height: 75px;
+	background-image: url("../images/wall4.png");
+	height: 40px;
 	border-top: 15px solid #4aaaa5;
 	text-align: center;
-	line-height: 85px;
-	color: #ffffff;
+	line-height: 40px;
+	color: black;
 	font-size: 15px;
 	width: 100%;
 	position: fixed;
+	margin-bottom: 0px;
 	margin-top: 75px;
 	bottom: 0;
 	left: 0;
@@ -197,7 +197,7 @@ textarea {
 
 .portfolio_footer {
 	position: static;
-	margin-bottom: 0px;
+	padding-bottom: 0px;
 }
 
 
