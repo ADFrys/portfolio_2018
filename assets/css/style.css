@@ -8,16 +8,17 @@ body {
 
 .header {
 	height: 90px;
-	background-color: #ffffff;
+	background: transparent;
 	margin-top: 10px;
 	font-family: 'Georgia', Times, Times New Roman, serif;
-	color: #777777;
-	width: 960px;
+	color: white;
+	font-weight: bold;
+	width: 965px;
 }
 
 .header a {
 	text-decoration: none;
-	color: #777777;
+	color: white;
 	line-height: 90px;
 	padding-right: 15px;
 	padding-left: 15px;
@@ -135,7 +136,7 @@ hr {
 
 .sidebar {
 	float: left;
-	width: 265px;
+	width: 250px;
 	height: 180px;
 	position: absolute;
 	margin-left: 690px;
@@ -169,13 +170,6 @@ input[type=email] {
 	width: 600px;
 	height: 25px;
 	border: 1px solid gray;
-}
-
-#submitbutton:hover {
-	padding: 10px 20px;
-	font-size: 20px;
-	background-image: url("../images/congruent_outline.png");
-	background-color: #666666;
 }
 
 textarea {
@@ -277,8 +271,9 @@ textarea {
 	}
 
 	.header {
-		width: 93%;
+		width: 94%;
 	}
+
 
 	.main-container {
 		width: 90%;
@@ -352,15 +347,16 @@ textarea {
 		border: none;
 		width: 100%;
 		margin-left: 60px;
+		color: #777777;
 	}
 	
 }
 
 @media screen and (max-width: 576px) {
 	.header a {
-		margin-left: 20px;
+		margin-left: 15px;
+		color: #777777;
 	}
-
 
 }
 
