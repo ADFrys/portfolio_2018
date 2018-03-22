@@ -1,17 +1,21 @@
-
 .hangman h5 {
-	margin-top: 130px;
-	margin-bottom: 10px;
+	margin-top: 0px;
+	margin-bottom: 0px;
 	background-color: #4aaaa5;
-	padding: 15px 0 5px 15px;
+	padding: 15px 0 5px 1px;
 	color: #ffffff;
 	bottom: 0;
 	text-align: center; 
-	line-height: 35px;
+	line-height: 20px;
+}
+
+#description {
+	font-size: 15px;
+	font-weight: none;
 }
 
 .hangman {
-	background: #ffffff url(../images/nature-q-c-640-480-10.jpg) top left no-repeat;
+	background: #ffffff url(../images/transport-q-g-640-480-9.jpg) top left no-repeat;
 	width: 256px;
 	height: 190px;
 	float: left;
@@ -19,23 +23,27 @@
 	margin-left: 30px;
 }
 
+.hangman a {
+	margin-bottom: 0px;
+	padding-bottom: 0;
+}
+
+
+.hangman h3 {
+	margin-top: 30px;
+	margin-bottom: 0px;
+	color: white;
+	text-align: center; 
+	line-height: 30px;
+}
+
 .portfolio a {
 	text-decoration: none;
 }
 
-.hangman h5:hover {
-	margin-top: 130px;
-	margin-bottom: 10px;
-	background-color: #666666;
-	padding: 15px 0 5px 15px;
-	color: #ffffff;
-	bottom: 0;
-	text-align: center; 
-	line-height: 35px;
-}
 
 .FriendFinder {
-	background: #ffffff url(../images/abstract-q-c-640-480-1.jpg) top left no-repeat;
+	background: #ffffff url(../images/cool_dude_pals_by_mighty355-d76l7r9.png) top left no-repeat;
 	width: 256px;
 	height: 190px;
 	float: left;
@@ -43,30 +51,27 @@
 }
 
 .FriendFinder h5 {
-	margin-top: 130px;
-	margin-bottom: 10px;
+	margin-top: 0px;
+	margin-bottom: 0px;
 	background-color: #4aaaa5;
 	padding: 15px 0 5px 15px;
 	color: #ffffff;
 	bottom: 0;
 	text-align: center; 
-	line-height: 35px;
+	line-height: 20px;
 }
 
-.FriendFinder h5:hover {
-	margin-top: 130px;
-	margin-bottom: 10px;
-	background-color: #666666;
-	padding: 15px 0 5px 15px;
-	color: #ffffff;
-	bottom: 0;
-	text-align: center; 
-	line-height: 35px;
 
+.FriendFinder h3 {
+	margin-top: 30px;
+	margin-bottom: 0px;
+	color: black;
+	text-align: center; 
+	line-height: 30px;
 }
 
 .triviagame {
-	background: #ffffff url(../images/abstract-q-c-640-480-3.jpg) top left no-repeat;
+	background: #ffffff url(../images/abstract-q-c-640-480-10.jpg) top left no-repeat;
 	width: 256px;
 	height: 190px;
 	float: left;
@@ -74,29 +79,26 @@
 }
 
 .triviagame h5 {
-	margin-top: 130px;
+	margin-top: 0px;
 	margin-bottom: 10px;
 	background-color: #4aaaa5;
 	padding: 15px 0 5px 15px;
 	color: #ffffff;
 	bottom: 0;
 	text-align: center; 
-	line-height: 35px;
+	line-height: 20px;
 }
 
-.triviagame h5:hover {
-	margin-top: 130px;
-	margin-bottom: 10px;
-	background-color: #666666;
-	padding: 15px 0 5px 15px;
-	color: #ffffff;
-	bottom: 0;
+.TriviaGame h3 {
+	margin-top: 30px;
+	margin-bottom: 0px;
+	color: black;
 	text-align: center; 
-	line-height: 35px;
+	line-height: 30px;
 }
 
 .burger {
-	background: #ffffff url(../images/nature-q-c-640-480-2.jpg) top left no-repeat;
+	background: #ffffff url(../images/food-q-g-640-480-9.jpg) top left no-repeat;
 	width: 256px;
 	height: 190px;
 	float: left;
@@ -104,25 +106,22 @@
 }
 
 .burger h5 {
-	margin-top: 130px;
+	margin-top: 0px;
 	margin-bottom: 10px;
 	background-color: #4aaaa5;
 	padding: 15px 0 5px 15px;
 	color: #ffffff;
 	bottom: 0;
 	text-align: center; 
-	line-height: 35px;
+	line-height: 20px;
 }
 
-.burger h5:hover {
-	margin-top: 130px;
-	margin-bottom: 10px;
-	background-color: #666666;
-	padding: 15px 0 5px 15px;
-	color: #ffffff;
-	bottom: 0;
+.burger h3 {
+	margin-top: 30px;
+	margin-bottom: 0px;
+	color: black;
 	text-align: center; 
-	line-height: 35px;
+	line-height: 30px;
 }
 
 .rockpaper {
@@ -135,56 +134,47 @@
 }
 
 .rockpaper h5 {
-	margin-top: 130px;
+	margin-top: 0px;
 	margin-bottom: 10px;
 	background-color: #4aaaa5;
 	padding: 15px 0 5px 15px;
 	color: #ffffff;
 	bottom: 0;
 	text-align: center; 
-	line-height: 35px;
+	line-height: 15px;
 }
 
-.rockpaper h5:hover {
-	margin-top: 130px;
-	margin-bottom: 10px;
-	background-color: #666666;
-	padding: 15px 0 5px 15px;
-	color: #ffffff;
-	bottom: 0;
-	text-align: center; 
-	line-height: 35px;
-}
 
 
 @media screen and (max-width: 980px) and (min-width: 641px){
 
 	.hangman {
 		clear: both;
-		width: 100%;
+		width: 91%;
 		padding: 0px 0px;
-		margin: 0 auto;
+		margin-left: 3px;
 	}
 
 	.hangman h5 {
-		width: 97%;
+		width: 100%;
 	}
 
 	.FriendFinder {
 		clear: none;
-		width: 100%;
+		width: 91%;
 		margin-top: 20px;
-		margin-left: 5px;
+		margin-left: 3px;
 		padding: 0px 0px;
 	}
 
 	.FriendFinder h5 {
-		width: 97%;
+		width: 98%;
 	}
+
 
 	.triviagame {
 		clear: both;
-		width: 100%;
+		width: 91%;
 		margin-top: 20px;
 		margin-left: 5px;
 		margin-bottom: 0px;
@@ -197,7 +187,7 @@
 
 	.burger {
 		clear: both;
-		width: 100%;
+		width: 91%;
 		margin-top: 20px;
 		margin-left: 5px;
 		margin-bottom: 0px;
@@ -210,7 +200,7 @@
 
 	.rockpaper {
 		clear: both;
-		width: 100%;
+		width: 91%;
 		margin-top: 20px;
 		margin-left: 5px;
 		padding: 0px 0px;
@@ -219,7 +209,6 @@
 	.rockpaper h5 {
 		width: 97%;
 	}
-
 }
 
 @media screen and (max-width: 640px) {
@@ -232,58 +221,60 @@
 	}
 
 	.hangman h5 {
-		width: 97%;
+		width: 100%;
 	}
 
 	.FriendFinder {
 		clear: none;
 		width: 100%;
 		margin-top: 20px;
-		margin-left: 5px;
+		margin-left: 1px;
+		margin-right: 2px;
 		padding: 0px 0px;
 	}
 
 	.FriendFinder h5 {
-		width: 97%;
+		width: 96%;
 	}
 
 	.triviagame {
 		clear: both;
 		width: 100%;
 		margin-top: 20px;
-		margin-left: 5px;
+		margin-left: 1px;
 		margin-bottom: 0px;
+		margin-right: 2px;
 		padding: 0px 0px;
 	}
 
 	.triviagame h5 {
-		width: 97%;
+		width: 96%;
 	}
 
 	.burger {
 		clear: both;
 		width: 100%;
 		margin-top: 20px;
-		margin-left: 5px;
+		margin-left: 1px;
 		margin-bottom: 0px;
 		padding: 0px 0px
+		margin-right: 2px;
 	}
 
 	.burger h5 {
-		width: 97%;
+		width: 96%;
 	}
 
 	.rockpaper {
 		clear: both;
 		width: 100%;
 		margin-top: 20px;
-		margin-left: 5px;
+		margin-left: 1px;
 		padding: 0px 0px;
 	}
 
 	.rockpaper h5 {
-		width: 97%;
+		width: 96%;
 	}
 
 }
-

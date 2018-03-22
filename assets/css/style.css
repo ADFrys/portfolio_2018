@@ -3,6 +3,7 @@
 body {
 	background-image: url("../images/congruent_outline.png");
 	position: relative;
+	font-family: 'Merriweather', serif;
 }
 
 
@@ -10,7 +11,7 @@ body {
 	height: 90px;
 	background: transparent;
 	margin-top: 10px;
-	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-family: 'Merriweather', serif;
 	color: white;
 	font-weight: bold;
 	width: 965px;
@@ -65,7 +66,7 @@ body {
 	width: 960px;
 	margin: 0 auto;
 	padding: 10px, 5px, 5px, 5px;
-	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-family: 'Merriweather', serif;
     color: #777777;
 }
 
@@ -105,7 +106,7 @@ body {
 }
 
 .main-container {
-	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-family: 'Merriweather', serif;
 	background-color: #ffffff;
 	border: 2px solid #dddddd;
 	width: 650px;
@@ -157,6 +158,7 @@ input[type=submit] {
 	padding: 10px 20px;
 	font-size: 20px;
 	color: #ffffff;
+	font-family: 'Merriweather', serif;
 }
 
 
@@ -201,9 +203,6 @@ textarea {
 
 @media screen and (max-width: 980px) {
 
-	.header h1 {
-		margin-left: 40px;
-	}
 
 	.main-content {
 		padding: 10px;
@@ -271,7 +270,7 @@ textarea {
 	}
 
 	.header {
-		width: 94%;
+		width: 96%;
 	}
 
 
@@ -319,6 +318,7 @@ textarea {
 
 	.header {
 		display: static;
+		width: 96%;
 	}
 
 	.main-container p {
